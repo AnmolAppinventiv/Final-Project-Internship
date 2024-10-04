@@ -26,23 +26,6 @@ This page showcases how to structure data-driven components and animate UI eleme
 - **Responsive Design**: Tailored the layout to adapt to different screen sizes using **Tailwind CSS breakpoints**.
 - **Technologies**: **Next.js 14**, **Tailwind CSS**, **TypeScript**.
 
-\`\`\`javascript
-const contactDetails = [
-  { id: 1, icon: <PhoneIcon />, text: 'Call Us: +91-7347526454' },
-  { id: 2, icon: <EmailIcon />, text: 'Email: anmol.aneja@appinventiv.com' },
-];
-
-return (
-  <div data-aos="fade-up">
-    {contactDetails.map((detail) => (
-      <div key={detail.id}>
-        {detail.icon}
-        {detail.text}
-      </div>
-    ))}
-  </div>
-);
-\`\`\`
 
 ### 2. Lead Generation Page
 
@@ -54,15 +37,6 @@ A high-performance, interactive lead generation page with a countdown timer and 
 - **Responsive & Animated**: Tailwind CSS was used to handle responsiveness, and sliding animations make the UI engaging on mobile devices.
 - **Technologies**: **Next.js 14**, **Tailwind CSS**, **TypeScript**.
 
-\`\`\`javascript
-useEffect(() => {
-  const intervalId = setInterval(() => {
-    setTime(prevTime => prevTime - 1);
-  }, 1000);
-
-  return () => clearInterval(intervalId);
-}, []);
-\`\`\`
 
 ## 🛠 Technologies Used
 
@@ -100,11 +74,11 @@ This web application is PWA-enabled, making it accessible offline, installable o
    npm run dev
    \`\`\`
 
-4. Open your browser and go to \`http://localhost:3000\` to see the app.
+4. Open your browser and go to \`https://ecomposer-anmol-aneja.vercel.app/` to see the app.
 
 ## 🌟 Demo
 
-Check out the live demo [here](#).
+Check out the live demo [here](https://ecomposer-anmol-aneja.vercel.app/).
 
 ## 🤝 Contributions
 
