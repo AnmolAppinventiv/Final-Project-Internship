@@ -10,13 +10,8 @@
   "description": "NextJS App",
   "icons": [
     {
-      "src": "/appLogo.ico",
+      "src": "/appLogo-192X192.png",
       "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/appLogo.ico",
-      "sizes": "512x512",
       "type": "image/png"
     }
   ]
