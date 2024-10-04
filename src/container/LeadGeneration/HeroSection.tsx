@@ -36,13 +36,13 @@ const HeroSection = () => {
 
   return (
     <div
-      className="relative w-full h-screen bg-cover bg-center flex items-center overflow-hidden" // Added overflow-hidden
+      className="relative w-full h-screen bg-cover bg-center flex items-center overflow-hidden" 
       style={{
         backgroundImage:
           'url("https://cdn.shopify.com/s/files/1/0623/8303/0317/files/ecom-no-replace-T8WCBRsztkFrame_1000004148.jpg?v=1716424734")',
       }}
     >
-      <div className="absolute top-0 left-0 w-full bg-[#3c3ab4] text-white  py-4 md:px-8"> {/* Adjusted padding */}
+      <div className="absolute top-0 left-0 w-full bg-[#3c3ab4] text-white  py-4 md:px-8">
         <div className="flex flex-col justify-center items-center text-center space-y-2">
           <div className="flex items-center">
             <EmergencyRecordingIcon className="text-red-500 mr-2 bg-white rounded-full" />
@@ -58,10 +58,10 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-between w-full max-w-7xl mx-auto px-4 md:px-8 mt-24"> {/* Adjusted padding */}
+      <div className="flex items-center justify-between w-full max-w-7xl mx-auto px-4 md:px-8 mt-24"> 
         <div className="max-w-lg text-left text-gray-900">
           <div className="flex items-center space-x-2 mb-4">
-            <span className="flex flex-row justify-center text-center text-4xl font-bold px-4 py-2 bg-black text-white rounded-full text-sm">
+            <span className="flex flex-row justify-center text-center font-bold px-4 py-2 bg-black text-white rounded-full text-sm">
               <AccessTimeIcon />
               <p className="pl-2">Date: 20.6.2024 / Time: 14:30 EST</p>
             </span>
