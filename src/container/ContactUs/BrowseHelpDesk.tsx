@@ -18,7 +18,7 @@ export default function BrowseHelpDesk() {
         {HELP_DESK.map((item) => (
           <section
             key={item.id}
-            data-aos="fade-up" // Apply the animation here
+            data-aos="fade-up"
             className="bg-[#F4F4FF] rounded-2xl text-center px-8 py-6 sm:px-12 sm:py-8 mb-8"
           >
             <img
