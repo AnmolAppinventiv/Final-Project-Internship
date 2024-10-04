@@ -19,6 +19,7 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#000000" />
         <link rel="apple-touch-icon" href="/appLogo.png" /> 
+        <link rel="icon" href="/appLogo-192X192.png" sizes="any" />
         <title>Final Project</title>
       </head>
       <body>
