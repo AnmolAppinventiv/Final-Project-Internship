@@ -65,16 +65,21 @@ This web application is PWA-enabled, making it accessible offline, installable o
    \`\`\`
 
 2. Install dependencies:
-   \`\`\`bash
-   npm install
+   \`\`\`
+   npx create-next-app@latest
+   npm i
+   npm install @mui/material @mui/styled-engine-sc styled-components
+   npm i aos
+   AND YOU ARE GOOD TO GO !
    \`\`\`
 
-3. Run the development server:
-   \`\`\`bash
-   npm run dev
+4. Run the development server:
+   \`\`\`
+      npm run dev
    \`\`\`
 
-4. Open your browser and go to \`https://ecomposer-anmol-aneja.vercel.app/` to see the app.
+5. Open your browser and go to \`https://ecomposer-anmol-aneja.vercel.app/` to see the app.
+
 
 ## 🌟 Demo
 
@@ -90,4 +95,3 @@ Feel free to fork this repository, submit pull requests, or file issues. Contrib
 
 ---
 
-This project is licensed under the MIT License.
