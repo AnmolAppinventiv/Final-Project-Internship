@@ -1,11 +1,9 @@
-import CompaniesAssociated from "./CompaniesAssociated";
-import HeroSection from "./HeroSection";
+import LeadGeneration from "@/container/LeadGeneration";
 
-export default function LeadGeneration() {
+export default function page() {
   return (
     <>
-        <HeroSection />
-        <CompaniesAssociated/>
+     <LeadGeneration/>
     </>
   );
 }
