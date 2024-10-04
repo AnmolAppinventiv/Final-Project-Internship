@@ -1,5 +1,5 @@
 
-# 🌐 2-Page Web App
+# 🌐 E-Composer : LEAD GENERATION & CONTACT US 
 
 This project is a modern **2-page web application Named Ecomposer** built using the latest technologies, including **Next.js 14**, **Tailwind CSS**, **TypeScript**, and **React.js**. The app is designed to be fully responsive, feature-rich, and optimized for both performance and scalability. Additionally, this web app has been enhanced with **Progressive Web App (PWA)** capabilities, ensuring a seamless user experience across different devices and network conditions.
 
